@@ -46,6 +46,7 @@ a {
 }
 
 .section {
+    height: max-content;
     display: flex;
     flex: 1 0 auto;
     flex-direction: row;
@@ -150,11 +151,6 @@ button {
     align-items: center;
     padding: 25px 125px 25px 125px;
     gap: 10px;
-}
-
-.quote-box {
-    display: flex;
-    justify-content: left;
 }
 
 em {
