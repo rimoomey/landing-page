@@ -157,7 +157,7 @@ button {
 .quote-box {
     display: flex;
     justify-content: left;
-    width: 300px;
+    width: 500px;
 }
 
 em {
