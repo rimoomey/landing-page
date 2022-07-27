@@ -41,9 +41,27 @@ a {
     flex-direction: row;
 }
 
+/*Section one content */
 .one {
-
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+}
+
+.left-one, .right-one {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.right-one {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    width: 80px;
 }
 
 .two {
@@ -56,4 +74,6 @@ a {
 .footer {
     display: flex;
     border: 5px solid red;
+    justify-content: center;
+    padding: 10px;
 }
