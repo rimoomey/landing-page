@@ -10,7 +10,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 16px;
 }
 
 .header {
@@ -42,14 +41,13 @@ a {
 
 .content {
     display: flex;
-    flex: 1 0 auto;
+    flex: 1;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .section {
     display: flex;
-    flex: 1;
+    flex: 1 0 auto;
     flex-direction: row;
     padding: 16px;
 }
@@ -150,14 +148,13 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 150px 100px 150px;
+    padding: 25px 125px 25px 125px;
     gap: 10px;
 }
 
 .quote-box {
     display: flex;
     justify-content: left;
-    width: 500px;
 }
 
 em {
