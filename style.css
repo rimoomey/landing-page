@@ -48,7 +48,7 @@ a {
 .section {
     height: max-content;
     display: flex;
-    flex: 1 0 auto;
+    flex: 1;
     flex-direction: row;
     padding: 16px;
 }
@@ -71,7 +71,7 @@ a {
 
 .right-one {
     height: 200px;
-    width: 400px;
+    width: 500px;
     line-height: 200px;
     text-align: center;
     background-color: grey;
@@ -112,7 +112,7 @@ button {
     flex-direction: column;
     justify-content: top;
     align-items: center;
-    padding-top: 16px;
+    padding: 16px 0px 32px 0px;
     gap: 16px;
 }
 
@@ -149,8 +149,12 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 25px 125px 25px 125px;
+    padding: 50px;
     gap: 10px;
+}
+
+.quote-box {
+    width: 500px;
 }
 
 em {
@@ -172,7 +176,7 @@ em {
 .four {
     display: flex;
     flex-direction: row;
-    padding: 32px;
+    padding: 75px;
     justify-content: center;
     align-items: center;
 }
