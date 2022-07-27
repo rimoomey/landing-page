@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     min-height: 100vh;
     display: flex;
@@ -64,10 +69,58 @@ button {
     width: 80px;
 }
 
+
+/*Section two content */
+
 .two {
     display: flex;
     flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    padding-top: 16px;
+    gap: 32px;
 }
+
+.four-photos {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.photo {
+    height: 100px;
+    width: 100px;
+    border: 5px solid purple;
+}
+
+.sub-text {
+    width: 100px;
+    text-align: center;
+}
+
+/* Section three styling */
+
+.three {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.quote-box {
+    display: flex;
+    width: 400px;
+    justify-content: left;
+}
+
+.citation {
+    display: flex;
+    width: 300px;
+    justify-content: right;
+}
+
+/* Section four styling */
+
 
 
 
